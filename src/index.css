@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h4{
+  font-weight: bold;
+}
+
+Button{
+  color: 'black';
+}
+
+Button:hover{
+  background-color: 'green'; 
+  color: 'white'; 
+
+}
+
+@keyframes pulseAnimation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
