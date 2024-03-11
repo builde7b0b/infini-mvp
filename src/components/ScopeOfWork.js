@@ -23,7 +23,7 @@ const ScopeOfWork = () => {
     AOS.init({duration: 1200});
   }, []);
   return (
-    <Box>
+    <Box sx={{backgroundColor: 'gold',}}>
       <Divider style={{ margin: '20px 0' }} />
       <Typography data-aos="slide-right" sx={{fontWeight:'bold',}} variant="h4" gutterBottom align="center">
         Our Scope of Work

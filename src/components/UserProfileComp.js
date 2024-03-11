@@ -7,7 +7,7 @@ import headshotimg from '../assets/headshot.jpeg';
 
 const UserProfileSection = ({scrollToComponent}) => {
   return (
-    <Box sx={{ bgcolor: 'black', p: 3, borderRadius: 2, boxShadow: 3, my: 4 }}>
+    <Box sx={{ bgcolor: 'gold', p: 3, borderRadius: 2, boxShadow: 3, my: 4 }}>
       <Grid container spacing={3} alignItems="center" justifyContent="center">
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <Avatar
@@ -17,10 +17,10 @@ const UserProfileSection = ({scrollToComponent}) => {
           />
         </Grid>
         <Grid item xs={12} sm={6} md={8} lg={9} textAlign={{ xs: 'center', sm: 'left' }}>
-          <Typography sx={{color:'white'}} variant="h4" gutterBottom>
+          <Typography sx={{color:'black'}} variant="h4" gutterBottom>
             Hi, I'm Eugene
           </Typography>
-          <Typography sx={{color:'white'}} variant="subtitle1" gutterBottom>
+          <Typography sx={{color:'black'}} variant="subtitle1" gutterBottom>
             "Your Full-Stack Software Engineer"
           </Typography>
           <Box>
@@ -28,7 +28,7 @@ const UserProfileSection = ({scrollToComponent}) => {
               
               href="https://www.linkedin.com/in/eugene-brown-jr-38210b99/" // Replace with your LinkedIn URL
               target="_blank"
-              sx={{ mr: 1 }}
+              sx={{ mr: 1, backgroundColor:'white', color: 'black'}}
             >
               LinkedIn
             </Button>
@@ -36,6 +36,7 @@ const UserProfileSection = ({scrollToComponent}) => {
               
               href="https://github.com/builde7b0b" // Replace with your GitHub URL
               target="_blank"
+              sx={{ mr: 1, backgroundColor:'white', color: 'black'}}
             >
               GitHub
             </Button>
